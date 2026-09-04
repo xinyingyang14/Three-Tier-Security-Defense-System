@@ -4,6 +4,25 @@ A robust, enterprise-ready web security defense system built with Flask, integra
 
 ---
 
+## 📁 Project Structure
+
+```text
+Three-Tier-Security-Defense-System/
+├── app.py                   # Main Flask application & routing logic
+├── database.db              # SQLite database (parameterized queries)
+├── deploy.sh                # Automation script for setup & stress testing
+├── requirements.txt         # Python dependencies
+├── demo.jpg                 # Security verification screenshot
+├── modules/
+│   ├── crypto.py            # RSA & ElGamal encryption implementations
+│   ├── auth.py              # TOTP MFA & Account lockout logic
+│   └── logger.py            # Centralized audit log configuration
+├── logs/
+│   └── security.log         # Real-time security event log file
+└── README.md                # Project documentation
+
+---
+
 ## Key Features
 
 * **Multi-Factor Authentication (TOTP & RSA/ElGamal)**: Enforces time-based one-time passwords alongside hybrid asymmetric encryption for sensitive data.
