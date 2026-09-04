@@ -1,0 +1,11 @@
+Please enter your username and password
+
+<form action="http://127.0.0.1:5000/login" method="POST">
+ <input type="text" name="username" placeholder="Username" required>
+ <br><br>
+ <input type="password" name="password" placeholder="Password" required>
+ <br><br>
+ <input type="text" name="otp_code" placeholder="OTP Code (6 digits)" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="off" required> 
+ <br><br>
+ <input type="submit" value="Submit">
+</form>
