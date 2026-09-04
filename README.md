@@ -41,9 +41,8 @@ python3 app.py
 
 curl -s -X POST [http://127.0.0.1:5000/login](http://127.0.0.1:5000/login) -d "username=' OR '1'='1&password=bad"
 
-3. 存檔並退出：按 **`Ctrl + O`** $\rightarrow$ 按 **`Enter`** 存檔，再按 **`Ctrl + X`** 離開。
-
-4. 執行以下指令把最新的 README 推上 GitHub：
+3. Save and exit nano: Press Ctrl + O $\rightarrow$ Press Enter to confirm saving, then press Ctrl + X to exit.
+4. Run the following commands to push the updated README to GitHub:
    ```bash
    git add README.md
    git commit -m "docs: add comprehensive README with architecture and verification screenshot"
